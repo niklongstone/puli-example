@@ -2,7 +2,7 @@
 
 This repository contains the example files related to the [SitePoint](http://www.sitepoint.com) article on [Puli](http://www.puli.io).
 
-## Step 1 - Managing resources  
+## Step 1 - Managing resources in PHP
 ####`master branch`
  - Make sure you have [Composer](https://getcomposer.org/) and you have installed the Puli CLI.
  - Run `composer install` to install all the required dependency.
