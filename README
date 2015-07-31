@@ -1,0 +1,9 @@
+# Resource management with Puli example files
+
+This repository contains the example files related to the [SitePoint](http://www.sitepoint.com) article on [Puli](http://www.puli.io).
+
+## 1.0
+ - Make sure you have [Composer](https://getcomposer.org/) and you have installed the Puli CLI.
+ - Run `composer install` to install all the required dependency.
+ - Run `puli map /myapp res` to map all the resources.
+ - See the result.
