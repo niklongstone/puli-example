@@ -1,7 +1,7 @@
 {
     "minimum-stability": "beta",
     "require": {
-        "puli/composer-plugin": "^1.0",
+        "puli/composer-plugin": "^1.0", 
         "puli/repository": "^1.0",
         "symfony/filesystem": "^2.7"
     }
