@@ -24,5 +24,5 @@ This repository contains the example files related to the [SitePoint](http://www
  60:    <img src="{{ resource_url('../public/images/200x200.gif') }}" alt="Post thumbnail" class="thumbnail" />
 
  ```
- __Note:__ The resource_url specified will refer to the public resource in the web root directory as in Step 2
+ __Note:__ The `resource_url` specified will refer to the public resource in the web root directory as in Step 2
  - Open twig-example.php to see the final result.
