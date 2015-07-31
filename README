@@ -6,4 +6,11 @@ This repository contains the example files related to the [SitePoint](http://www
  - Make sure you have [Composer](https://getcomposer.org/) and you have installed the Puli CLI.
  - Run `composer install` to install all the required dependency.
  - Run `puli map /myapp res` to map all the resources.
- - See the result.
+ - Open index.php to see the result.
+
+## 2.0
+ - Run `composer require puli/url-generator:^1.0` to require the Url Generator Puli package.
+ - Run `puli server --add myserver public_html` to make the server link to the public_html folder.
+ - Run `puli publish /myapp/public myserver` to register the path.
+ - Run `puli publish --install' to create symlinks of the /res/public elements into the public_html path
+ - Open url-generation.php to see the absolute path output.
