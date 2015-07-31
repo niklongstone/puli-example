@@ -17,11 +17,12 @@ This repository contains the example files related to the [SitePoint](http://www
 
 ## Step 3 - (`git checkout step-3`)
  - Run `composer update` to install the required dependencies.
- - Modify the lines 9 and 60 of the views/index.html.twig as follow:
+ - Modify the lines 9 and 60 of the `views/index.html.twig` as follow:
  ```
  9:     <link rel="stylesheet" href="{{ resource_url('../public/css/style.css') }}">
  ...
  60:    <img src="{{ resource_url('../public/images/200x200.gif') }}" alt="Post thumbnail" class="thumbnail" />
 
  ```
+ __Note:__ The resource_url specified will refer to the public resource in the web root directory as in Step 2
  - Open twig-example.php to see the final result.
